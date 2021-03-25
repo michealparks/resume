@@ -1,9 +1,6 @@
 const sveltePreprocess = require('svelte-preprocess')
 const adapterStatic = require('@sveltejs/adapter-static')
-// const node = require('@sveltejs/adapter-node')
 const pkg = require('./package.json')
-
-// console.log(static())
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
@@ -11,6 +8,9 @@ module.exports = {
 	kit: {
 		adapter: adapterStatic(),
 		target: '#svelte',
+		paths: {
+			base: '/resume/'
+		},
 		vite: {
 			ssr: { noExternal: Object.keys(pkg.dependencies || {}) }
 		}

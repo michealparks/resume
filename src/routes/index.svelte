@@ -29,10 +29,10 @@
 	}
 
 	:global(ul) {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
 
 	:global(h1, h2, h3) {
 		font-family: 'Didact Gothic', sans-serif;
@@ -48,7 +48,7 @@
 
 	main {
 		display: grid;
-    grid-template: auto auto auto / 2fr 7fr;
+		grid-template: auto auto auto / 2fr 7fr;
 		column-gap: 30px;
 	}
 </style>

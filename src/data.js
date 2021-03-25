@@ -66,7 +66,7 @@ export default {
       link: 'https://galeri.io',
       description: `
         Galeri is an electron desktop app and a browser extension that changes your desktop background, screensaver, or new tab into 
-        a stream of artworks selected from open art APIs provided my museums and other institutions.
+        a stream of artworks selected from open art APIs provided by museums and other institutions.
       `
     }, {
       title: 'Renewal',

@@ -2,7 +2,7 @@ export default {
   header: {
     name: 'Micheal Parks',
     title: 'Software Engineer',
-    portrait: '/me.jpg',
+    portrait: 'me.jpg',
     description: `
       I have an ongoing love affair with science and artistic communication, yet I’m pragmatic and an engineer at heart.
       I love the craft of storytelling, which makes me sensitive to user experience and fuels my passion for video game development.

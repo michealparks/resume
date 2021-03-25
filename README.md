@@ -1,5 +1,7 @@
 # Resume
 
+View [here](https://michealparks.github.io/resume/).
+
 ## Developing
 
 ```bash

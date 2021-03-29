@@ -88,8 +88,8 @@ export default {
 	skills: [
 		{ name: 'Untyped Typescript', mastery: 100000 },
 		{ name: 'CSS, HTML, The Web™', mastery: 95000 },
-		{ name: 'ThreeJS, Playcanvas, etc', mastery: 90000 },
-		{ name: 'Blender', mastery: 85000 },
+		{ name: 'ThreeJS, Playcanvas, etc.', mastery: 90000 },
+		{ name: 'Blender (donut making)', mastery: 85000 },
 		{ name: 'Godot Game Engine', mastery: 80000 }
 	]
 }

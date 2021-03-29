@@ -9,7 +9,7 @@ module.exports = {
 		adapter: adapterStatic(),
 		target: '#svelte',
 		paths: {
-			base: '/resume/'
+			// base: '/resume/'
 		},
 		vite: {
 			ssr: { noExternal: Object.keys(pkg.dependencies || {}) }

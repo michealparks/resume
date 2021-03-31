@@ -70,13 +70,14 @@ export default {
 			`
 		}, {
 			title: 'Renewal',
-			link: 'https://michealparks.github.io/global-game-jam-2021/',
+			link: 'https://github.com/michealparks/global-game-jam-2021',
 			description: `
-				Renewal is a small 3d simulation game made for the 2021 global game jam using ThreeJS. 
+				Renewal is a small 3d simulation game made for the 2021 global game jam using ThreeJS.
+				The gameplay is focused on turning an abandoned lot into a community garden.
 			`
 		}, {
 			title: 'House Party',
-			link: 'https://github.com/michealparks/house-party',
+			link: 'https://github.com/michealparks/global-game-jam-19',
 			description: `
 				House Party is a small 2d pixel art game made for the 2018 global game jam featuring a minimal self-made WebGL rendering engine.
 				You play as an enraged dad who - upon finding that your kids threw a house party without your knowledge - vanguishes troublesome teens
@@ -87,8 +88,8 @@ export default {
 	skills: [
 		{ name: 'Untyped Typescript', mastery: 100000 },
 		{ name: 'CSS, HTML, The Web™', mastery: 95000 },
-		{ name: 'ThreeJS, Playcanvas, etc', mastery: 90000 },
-		{ name: 'Blender', mastery: 85000 },
+		{ name: 'ThreeJS, Playcanvas, etc.', mastery: 90000 },
+		{ name: 'Blender (donut making)', mastery: 85000 },
 		{ name: 'Godot Game Engine', mastery: 80000 }
 	]
 }

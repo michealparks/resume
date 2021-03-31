@@ -45,7 +45,7 @@ export default {
 			company: 'University of Central Florida',
 			duration: '2012 - 2013',
 			description: `
-				I wrote educational javascript games and embeddable widgets alongside Lego models and some fantastic people.
+				I wrote educational javascript games and embeddable widgets - like <a class="link" target="_tab" href="https://materia.ucf.edu/widgets/12-hangman">Hangman</a> and <a class="link" target="_tab" href="https://materia.ucf.edu/widgets/9-flash-cards">Flashcards</a> - alongside Lego models and some fantastic people.
 			`
 		}
 	],
@@ -65,7 +65,7 @@ export default {
 			title: 'Galeri',
 			link: 'https://galeri.io',
 			description: `
-				Galeri is an electron desktop app and a browser extension that changes your desktop background, screensaver, or new tab into 
+				Galeri is an electron desktop app and a browser extension that changes your desktop background or browser's new tab page into 
 				a stream of artworks selected from open art APIs provided by museums and other institutions.
 			`
 		}, {

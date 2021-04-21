@@ -17,7 +17,3 @@ npm run dev -- --open
 npm run build
 npm run gh-pages
 ```
-
-There's currently a base url issue that requires manually changing hrefs in the generated HTML before deploying.
-
-See [this issue](https://github.com/sveltejs/kit/issues/595).

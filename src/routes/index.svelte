@@ -19,7 +19,7 @@
 	<Skills skills={data.skills} />
 </main>
 
-<style>
+<style lang="scss">
 	:global(body) {
 		max-width: 900px;
 		padding: 20px;
@@ -50,5 +50,9 @@
 		display: grid;
 		grid-template: auto auto auto / 2fr 7fr;
 		column-gap: 30px;
+
+		@media (max-width: 760px) {
+			display: block;
+		}
 	}
 </style>

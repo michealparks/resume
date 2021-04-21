@@ -13,7 +13,7 @@
 	<p>{description}</p>
 </header>
 
-<style>
+<style lang="scss">
 	header {
 		--salmon:#ea8c80;
 
@@ -25,6 +25,10 @@
 		margin: 0 0 20px 0;
 		column-gap: 30px;
 		border-radius: 4px;
+
+		@media (max-width: 760px) {
+			display: block;
+		}
 	}
 
 	img {

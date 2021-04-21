@@ -1,14 +1,16 @@
 <svelte:options immutable />
 
-<script>
+<script lang='ts'>
+	import type { Project } from './types'
 	import Title from './Title.svelte'
-	export let projects
+
+	export let projects: Project[]
 </script>
 
 <section>
 	<Title>Selected Projects</Title>
 	<ul>
-		{#each projects as { link, title, description }, i (i)}
+		{#each projects as { link, title, description }, _ (title)}
 			<li>
 				<div>
 					<a class='link' target='_tab' href={link}>

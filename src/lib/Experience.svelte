@@ -1,14 +1,16 @@
 <svelte:options immutable />
 
-<script>
+<script lang='ts'>
+	import type { Job } from './types'
 	import Title from './Title.svelte'
-	export let jobs = []
+	
+	export let jobs: Job[]
 </script>
 
 <section>
 	<Title>Work Experience</Title>
 	<ul>
-		{#each jobs as { title, company, duration, description }, i (i)}
+		{#each jobs as { title, company, duration, description }, _ (title)}
 			<li>
 				<h3>{title}, {company}</h3>
 				<p>{duration}</p>

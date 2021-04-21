@@ -1,13 +1,13 @@
 <svelte:options immutable />
 
-<script>
+<script lang="ts">
 	import Title from './Title.svelte'
-	export let email
-	export let phone
-	export let location
-	export let website
-	export let github
-	export let linkedin
+	export let email: string
+	export let phone: string
+	export let location: string
+	export let website: string
+	export let github: string
+	export let linkedin: string
 </script>
 
 <section>

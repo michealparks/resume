@@ -1,14 +1,16 @@
 <svelte:options immutable />
 
-<script>
+<script lang='ts'>
+	import type { Skill } from './types'
 	import Title from './Title.svelte'
-	export let skills
+
+	export let skills: Skill[]
 </script>
 
 <section>
 	<Title>Skillz</Title>
 	<ul>
-		{#each skills as { name, mastery }, i (i)}
+		{#each skills as { name, mastery }, _ (name)}
 			<li>
 				<div class='progress' style='width: {(mastery / 100000) * 100}%' />
 				{name}

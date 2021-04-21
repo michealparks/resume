@@ -1,15 +1,16 @@
 <svelte:options immutable />
 
-<script>
+<script lang='ts'>
+	import type { Education } from './types'
 	import Title from './Title.svelte'
 
-	export let education = []
+	export let education: Education[]
 </script>
 
 <section>
 	<Title>Education</Title>
 	<ul>
-		{#each education as { institution, duration, concentration }, i (i)}
+		{#each education as { institution, duration, concentration }, _ (institution)}
 			<li>
 				<h3>{institution}</h3>
 				<p>{duration}</p>

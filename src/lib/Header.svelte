@@ -1,10 +1,10 @@
 <svelte:options immutable />
 
-<script>
-	export let portrait
-	export let name
-	export let title
-	export let description
+<script lang="ts">
+	export let portrait: string
+	export let name: string
+	export let title: string
+	export let description: string
 </script>
 
 <header>

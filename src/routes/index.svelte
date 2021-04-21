@@ -1,7 +1,7 @@
 <svelte:options immutable />
 
-<script>
-	import data from '../data.js'
+<script lang='ts'>
+	import data from '$lib/data'
 	import Header from '$lib/Header.svelte'
 	import Contact from '$lib/Contact.svelte'
 	import Experience from '$lib/Experience.svelte'
@@ -11,6 +11,7 @@
 </script>
 
 <Header {...data.header} />
+
 <main>
 	<Contact {...data.contact} />
 	<Experience jobs={data.jobs} />

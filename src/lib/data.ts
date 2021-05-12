@@ -57,7 +57,7 @@ const education: Education[] = [
 	{
 		institution: 'Brooklyn College',
 		duration: '2017 - 2020',
-		concentration: 'Mathematics'
+		concentration: 'Mathematics Courses'
 	}, {
 		institution: 'University of Central Florida',
 		duration: '2008 - 2013',

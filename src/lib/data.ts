@@ -68,7 +68,7 @@ const education: Education[] = [
 const projects: Project[] = [
 	{
 		title: 'Galeri',
-		link: 'https://galeri.io',
+		link: 'https://www.galeri.io',
 		description: `
 			Galeri is an electron desktop app and a browser extension that changes your desktop background or browser's new tab page into 
 			a stream of artworks selected from open art APIs provided by museums and other institutions.

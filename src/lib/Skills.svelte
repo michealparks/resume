@@ -32,6 +32,8 @@
 	li {
 		position: relative;
 		overflow: hidden;
+		display: flex;
+		align-items: center;
 		margin: 5px 0;
 		padding: 5px 10px;
 		border: 1px solid var(--accent);

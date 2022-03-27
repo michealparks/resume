@@ -12,9 +12,11 @@ body {
   max-width: 900px;
   padding: 20px;
   margin: 0 auto;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: system-ui;
+  line-height: 1.5;
   font-size: 14px;
   background-color: var(--bg);
+  color: #555;
 }
 
 ul {
@@ -23,16 +25,21 @@ ul {
   list-style-type: none;
 }
 
-h1, h2, h3 {
-  font-family: 'Didact Gothic', sans-serif;
+h1, h2 {
+  font-weight: 200;
 }
 
-h3, p {
+h3, p, a {
+  font-weight: 300;
   margin: 0 0 5px 0;
 }
 
 h3 {
   font-size: 16px;
+}
+
+a {
+  margin: 0;
 }
 
 a.link {

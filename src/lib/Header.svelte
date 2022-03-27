@@ -13,20 +13,20 @@
 	<p>{description}</p>
 </header>
 
-<style lang="scss">
+<style>
 	header {
-		--salmon:#ea8c80;
-
 		display: grid;
 		grid-template: auto 1fr / 1fr 10fr;
-		background: var(--salmon);
+		background: var(--header-bg);
 		color: white;
 		padding: 20px;
 		margin: 0 0 20px 0;
 		column-gap: 30px;
 		border-radius: 4px;
+	}
 
-		@media (max-width: 760px) {
+	@media (max-width: 760px) {
+		header {
 			display: block;
 		}
 	}

@@ -2,7 +2,7 @@
 	<slot />
 </h2>
 
-<div class="divider" />
+<div class='divider' />
 
 <style>
 	h2 {
@@ -10,11 +10,9 @@
 	}
 
 	.divider {
-		--turquoise: #80DEEA;
-	
 		height: 5px;
 		width: 100%;
-		background: var(--turquoise);
+		background: var(--title-bg);
 		margin-bottom: 10px;
 	}
 </style>

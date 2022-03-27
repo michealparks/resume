@@ -26,7 +26,7 @@
 
 <style>
 	section {
-		grid-row: 3 / auto;
+		grid-row: 4 / auto;
 		grid-column: 2 / span 1;
 	}
 

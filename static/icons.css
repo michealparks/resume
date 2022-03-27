@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'icomoon';
   src: url('icomoon.woff?xvgi4m') format('woff');
@@ -37,33 +38,4 @@
 }
 .icon-website:before {
   content: "\e905";
-}
-
-a.link {
-  --link: #EC407A;
-
-  position: relative;
-  text-decoration: none;
-  color: var(--link);
-}
-
-a.link::after {
-  content: '';
-  background: rgba(236, 64, 122, 0.25);
-  position: absolute;
-  left: 14px;
-  bottom: -8px;
-  width: calc(100% - 8px);
-  height: calc(100% - 8px);
-  transform: scaleY(0.2);
-  z-index: -1;
-  transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
-}
-
-a.link:hover::after {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  transform: scaleY(1);
 }

@@ -25,7 +25,7 @@
 		--gray: #546E7A;
 		--salmon: #FFCCBC;
 
-		grid-row: 3 / auto;
+		grid-row: 4 / auto;
 		grid-column: 1 / span 1;
 	}
 
@@ -34,7 +34,7 @@
 		overflow: hidden;
 		margin: 5px 0;
 		padding: 5px 10px;
-		border: 1px solid var(--gray);
+		border: 1px solid var(--accent);
 		border-radius: 4px;
 		font-size: 12px;
 	}
@@ -49,7 +49,7 @@
 		left: 0;
 		position: absolute;
 		height: 100%;
-		background: var(--salmon);
+		background: var(--accent);
 		z-index: -1;
 	}
 </style>

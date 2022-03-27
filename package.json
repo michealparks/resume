@@ -2,23 +2,25 @@
 	"name": "resume",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"start": "svelte-kit dev",
 		"build": "svelte-kit build",
-		"start": "svelte-kit start",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"gh-pages": "node ./scripts/gh-pages.js"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
-		"gh-pages": "^3.1.0",
-		"sass": "^1.32.11",
-		"svelte": "^3.37.0",
-		"svelte-preprocess": "^4.7.2",
-		"typescript": "^4.2.4",
-		"vite": "^2.2.1"
+		"svelte": "^3.46.4",
+		"svelte-check": "^2.4.6",
+		"svelte-preprocess": "^4.10.4",
+		"tslib": "^2.3.1",
+		"typescript": "^4.6.3",
+		"vite": "^2.8.6"
 	},
 	"type": "module",
 	"engines": {
-		"node": ">= 12.17.0"
+		"node": ">= 16.0.0"
 	}
 }

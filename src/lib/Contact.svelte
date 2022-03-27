@@ -1,6 +1,6 @@
 <svelte:options immutable />
 
-<script lang="ts">
+<script lang='ts'>
 	import Title from './Title.svelte'
 	export let email: string
 	export let phone: string
@@ -34,12 +34,12 @@
 	
 	<div>
 		<span class='icon-github' />
-		<a target="_tab" href={`https://${github}`}>{github}</a>
+		<a target='_tab' href={`https://${github}`}>{github}</a>
 	</div>
 
 	<div>
 		<span class='icon-linkedin' />
-		<a target="_tab" href={`https://${linkedin}`}>{linkedin}</a>
+		<a target='_tab' href={`https://${linkedin}`}>{linkedin}</a>
 	</div>
 </section>
 

@@ -27,6 +27,15 @@ const contact = {
 
 const jobs: Job[] = [
 	{
+		title: 'Senior Sofware Engineer - Frontend',
+		company: 'Bowery Farming',
+		duration: 'June 2021 - April 2022',
+		description: `
+			I established code standards, design patterns, and helped grow a Frontend engineering culture for BoweryOS: the app that orchestrates and monitors
+			Bowery's farms. I mentored engineers and set up tools and practices that increased the overall reliability and positive developer experience when
+			building upon and maintaining the app.
+		`,
+	}, {
 		title: 'Lead Software Engineer',
 		company: 'MongoDB',
 		duration: 'May 2015 – Nov 2020',
@@ -94,9 +103,20 @@ const projects: Project[] = [
 const skills: Skill[] = [
 	{ name: 'Untyped Typescript', mastery: 100000 },
 	{ name: 'CSS, HTML, The Web™', mastery: 95000 },
-	{ name: 'ThreeJS, Playcanvas, etc.', mastery: 90000 },
+	{ name: 'ThreeJS, Game Engines', mastery: 90000 },
 	{ name: 'Blender (donut making)', mastery: 85000 },
-	{ name: 'Godot Game Engine', mastery: 80000 }
+]
+
+const interests: string[] = [
+	'3D Graphics',
+	'VR + AR',
+	'UI Engineering',
+	'UX Design',
+	'App Design',
+	'Game Development',
+	'People-first work culture',
+	'Science',
+	'Art',
 ]
 
 export default {
@@ -105,5 +125,6 @@ export default {
 	jobs,
 	education,
 	projects,
-	skills
+	skills,
+	interests,
 }

@@ -1,58 +1,37 @@
 <svelte:options immutable />
 
 <script lang='ts'>
+	import '../index.css'
 	import data from '$lib/data'
 	import Header from '$lib/Header.svelte'
 	import Contact from '$lib/Contact.svelte'
 	import Experience from '$lib/Experience.svelte'
 	import Education from '$lib/Education.svelte'
 	import Projects from '$lib/Projects.svelte'
+	import Interests from '$lib/Interests.svelte'
 	import Skills from '$lib/Skills.svelte'
 </script>
 
 <Header {...data.header} />
 
-<main>
+<main>	
 	<Contact {...data.contact} />
 	<Experience jobs={data.jobs} />
 	<Education education={data.education} />
 	<Projects projects={data.projects} />
+	<Interests interests={data.interests} />
 	<Skills skills={data.skills} />
 </main>
 
-<style lang="scss">
-	:global(body) {
-		max-width: 900px;
-		padding: 20px;
-		margin: 0 auto;
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-	}
-
-	:global(ul) {
-		margin: 0;
-		padding: 0;
-		list-style-type: none;
-	}
-
-	:global(h1, h2, h3) {
-		font-family: 'Didact Gothic', sans-serif;
-	}
-
-	:global(h3, p) {
-		margin: 0 0 5px 0;
-	}
-
-	:global(h3) {
-		font-size: 16px;
-	}
-
+<style>
 	main {
 		display: grid;
-		grid-template: auto auto auto / 2fr 7fr;
+		grid-template: auto auto auto auto / 2fr 8fr;
 		column-gap: 30px;
+	}
 
-		@media (max-width: 760px) {
+	@media (max-width: 760px) {
+		main {
 			display: block;
 		}
 	}

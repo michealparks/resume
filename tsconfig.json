@@ -1,19 +1,15 @@
 {
+  "extends": "./.svelte-kit/tsconfig.json",
   "include": [
-    "electron/**/*.ts",
-    "utils/**/*.ts",
-    "apis/**/*.ts",
-    "src/**/*.d.ts",
-		"src/**/*.js",
 		"src/**/*.ts",
 		"src/**/*.svelte"
   ],
   "typeRoots": [],
   "types": [],
-  "lib": ["node", "electron"],
+  "lib": ["node", "DOM", "ESNext"],
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
+    "module": "ESNext",
+    "target": "ESNext",
     "moduleResolution": "node",
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
@@ -38,9 +34,10 @@
     "baseUrl": "./",
     "paths": {
       "*": ["web_modules/.types/*"],
+      "$lib":["src/lib"],
+      "$lib/*":["src/lib/*"],
       "$app/*": [".svelte/dev/runtime/app/*", ".svelte/build/runtime/app/*"],
 			"$service-worker": [".svelte/build/runtime/service-worker"],
-			"$lib/*": ["src/lib/*"]
     }
   }
 }

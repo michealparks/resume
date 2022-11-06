@@ -25,14 +25,15 @@
 
 <style>
 	main {
-		display: grid;
+    padding: 0 20px;
 		grid-template: auto auto auto auto / 2fr 8fr;
 		column-gap: 30px;
 	}
 
-	@media (max-width: 760px) {
-		main {
-			display: block;
-		}
-	}
+  @media (min-width: 700px) {
+    main {
+      padding: 0;
+      display: grid;
+    }
+  }
 </style>

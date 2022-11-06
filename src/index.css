@@ -1,22 +1,27 @@
 :root {
   --bg: #FFF8F0;
   --bg-shade-1: #FFECD6;
-  --header-bg: #4E878C;
+  --header-bg: #406e72;
   --title-bg: #9DD9D2;
   --accent-light: #FFB870;
-  --accent: #FFA347;
+  --accent: #ffbf80;
   --accent-dark: #E07000;
 }
 
 body {
   max-width: 900px;
-  padding: 20px;
   margin: 0 auto;
   font-family: system-ui;
   line-height: 1.5;
   font-size: 14px;
   background-color: var(--bg);
   color: #555;
+}
+
+@media (min-width: 700px) { 
+  body {
+    padding: 20px;
+  }
 }
 
 ul {

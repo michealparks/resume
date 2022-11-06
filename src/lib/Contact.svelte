@@ -49,7 +49,13 @@
 
 	div {
 		display: flex;
-		margin: 8px 0;
+		padding: 8px 0;
+	}
+
+	@media (min-width: 700px) {
+		div {
+			padding: 4px 0;
+		}
 	}
 
 	span {

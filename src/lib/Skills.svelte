@@ -22,9 +22,6 @@
 
 <style>
 	section {
-		--gray: #546E7A;
-		--salmon: #FFCCBC;
-
 		grid-row: 4 / auto;
 		grid-column: 1 / span 1;
 	}

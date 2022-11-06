@@ -1,5 +1,3 @@
-<svelte:options immutable />
-
 <script lang='ts'>
 	import Title from './Title.svelte'
 	export let email: string

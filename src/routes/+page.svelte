@@ -1,6 +1,6 @@
-<svelte:options immutable />
-
 <script lang='ts'>
+  export const prerender = true
+
 	import '../index.css'
 	import data from '$lib/data'
 	import Header from '$lib/Header.svelte'

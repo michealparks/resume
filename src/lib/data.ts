@@ -27,6 +27,11 @@ const contact = {
 
 const jobs: Job[] = [
 	{
+		title: 'Senior Sofware Engineer II - Frontend',
+		company: 'VIAM',
+		duration: 'April 2022 - Current',
+		description: ``,
+	}, {
 		title: 'Senior Sofware Engineer - Frontend',
 		company: 'Bowery Farming',
 		duration: 'June 2021 - April 2022',
@@ -66,7 +71,7 @@ const education: Education[] = [
 	{
 		institution: 'Brooklyn College',
 		duration: '2017 - 2020',
-		concentration: 'Mathematics'
+		concentration: 'Mathematics courses'
 	}, {
 		institution: 'University of Central Florida',
 		duration: '2008 - 2013',

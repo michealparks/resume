@@ -1,11 +1,13 @@
 <script lang='ts'>
-	import Title from './Title.svelte'
-	export let email: string
-	export let phone: string
-	export let location: string
-	export let website: string
-	export let github: string
-	export let linkedin: string
+
+import Title from './Title.svelte'
+export let email: string
+export let phone: string
+export let location: string
+export let website: string
+export let github: string
+export let linkedin: string
+
 </script>
 
 <section>

@@ -1,10 +1,10 @@
-<svelte:options immutable />
-
 <script lang='ts'>
-	import type { Education } from './types'
-	import Title from './Title.svelte'
 
-	export let education: Education[]
+import type { Education } from './types'
+import Title from './Title.svelte'
+
+export let education: Education[]
+
 </script>
 
 <section>

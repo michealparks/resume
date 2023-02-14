@@ -1,10 +1,10 @@
-<svelte:options immutable />
-
 <script lang='ts'>
-	import type { Project } from './types'
-	import Title from './Title.svelte'
 
-	export let projects: Project[]
+import type { Project } from './types'
+import Title from './Title.svelte'
+
+export let projects: Project[]
+
 </script>
 
 <section>

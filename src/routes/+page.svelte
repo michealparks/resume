@@ -1,15 +1,15 @@
 <script lang='ts'>
-  export const prerender = true
 
-	import '../index.css'
-	import data from '$lib/data'
-	import Header from '$lib/Header.svelte'
-	import Contact from '$lib/Contact.svelte'
-	import Experience from '$lib/Experience.svelte'
-	import Education from '$lib/Education.svelte'
-	import Projects from '$lib/Projects.svelte'
-	import Interests from '$lib/Interests.svelte'
-	import Skills from '$lib/Skills.svelte'
+import '../index.css'
+import data from '$lib/data'
+import Header from '$lib/Header.svelte'
+import Contact from '$lib/Contact.svelte'
+import Experience from '$lib/Experience.svelte'
+import Education from '$lib/Education.svelte'
+import Projects from '$lib/Projects.svelte'
+import Interests from '$lib/Interests.svelte'
+import Skills from '$lib/Skills.svelte'
+
 </script>
 
 <Header {...data.header} />

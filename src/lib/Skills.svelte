@@ -1,10 +1,10 @@
-<svelte:options immutable />
-
 <script lang='ts'>
-	import type { Skill } from './types'
-	import Title from './Title.svelte'
 
-	export let skills: Skill[]
+import type { Skill } from './types'
+import Title from './Title.svelte'
+
+export let skills: Skill[]
+
 </script>
 
 <section>

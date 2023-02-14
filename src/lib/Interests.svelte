@@ -1,9 +1,9 @@
-<svelte:options immutable />
-
 <script lang='ts'>
-	import Title from './Title.svelte'
 
-	export let interests: string[]
+import Title from './Title.svelte'
+
+export let interests: string[]
+
 </script>
 
 <section>

@@ -1,10 +1,10 @@
-<svelte:options immutable />
-
 <script lang='ts'>
-	import type { Job } from './types'
-	import Title from './Title.svelte'
-	
-	export let jobs: Job[]
+
+import type { Job } from './types'
+import Title from './Title.svelte'
+
+export let jobs: Job[]
+
 </script>
 
 <section>

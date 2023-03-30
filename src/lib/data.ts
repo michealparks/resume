@@ -30,7 +30,13 @@ const jobs: Job[] = [
 		title: 'Senior Sofware Engineer II - Frontend',
 		company: 'VIAM',
 		duration: 'April 2022 - Current',
-		description: ``,
+		description: `
+			At Viam I served as a founding engineer for <a class="link" target="_tab" href="https://app.viam.com">app.viam.com</a>.
+			I designed and led development on much of the app's client architecture, deployment and CI workflows, and <a class="link" target="_tab" href="https://prime.viam.com">component library</a>.
+			I established a UI guild and taught a Three.js course to a team of engineers. I often collaborated with the design team for creating the company's design language,
+			rules for interaction, and the UI / UX of specific features such as Viam's robot designer. I prototyped and led design and development of multiple features,
+			including visualizers for viewing point clouds and for configuring the reference frames and geometry of a robot when motion planning.
+		`,
 	}, {
 		title: 'Senior Sofware Engineer - Frontend',
 		company: 'Bowery Farming',
@@ -117,7 +123,7 @@ const interests: string[] = [
 	'VR + AR',
 	'UI Engineering',
 	'UX Design',
-	'App Design',
+	'Interaction Design',
 	'Game Development',
 	'People-first work culture',
 	'Science',

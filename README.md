@@ -1,19 +1,5 @@
 # Resume
 
-View [here](https://michealparks.github.io/resume/).
+View [here](https://michealparks.github.io/resume/). My resume is guaranteed<sup>*</sup> to be results and detail-oriented, optimized for success, customer-focused, results driven, dynamic, yet somehow still out of the box. My proven track record should demonstrate my ability as a Disruptive Innovator and that I think good.
 
-## Developing
-
-```bash
-npm install
-npm run dev
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building / Deploying
-
-```bash
-npm run build
-npm run gh-pages
-```
+<sup>*</sup>guarantees can not be assured.

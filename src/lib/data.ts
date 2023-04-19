@@ -87,11 +87,24 @@ const education: Education[] = [
 
 const projects: Project[] = [
 	{
+		title: 'Odyssey',
+		link: 'https://michealparks.github.io/odyssey/',
+		description: `
+			Odyssey was made for 2023 Svelte Hack. It is a minigame - built with Svelte and Three.js - about being lost in space.
+		`
+	}, {
+		title: 'TsunamiWorm',
+		link: 'https://michealparks.github.io/game-off-2021/',
+		description: `
+			TsunamiWorm was an entry for the 2021 Game Off competition. It was made using React Three Fiber and XState. In it you play as a computer virus
+			attempting to enslave and control the resources of a poor, helpless computer.
+		`
+	}, {
 		title: 'Galeri',
 		link: 'https://galeri.io',
 		description: `
-			Galeri is an electron desktop app and a browser extension that changes your desktop background or browser's new tab page into 
-			a stream of artworks selected from open art APIs provided by museums and other institutions.
+			Galeri is a desktop app that changes your desktop background or browser's new tab page into 
+			a stream of artworks selected from open art APIs provided by museums and other institutions. It was recently re-written in Rust using Tauri.
 		`
 	}, {
 		title: 'Renewal',
@@ -116,6 +129,7 @@ const skills: Skill[] = [
 	{ name: 'CSS, HTML, The Web™', mastery: 95000 },
 	{ name: 'ThreeJS, Game Engines', mastery: 90000 },
 	{ name: 'Blender (donut making)', mastery: 85000 },
+	{ name: 'Rust', mastery: -100 },
 ]
 
 const interests: string[] = [
@@ -123,6 +137,7 @@ const interests: string[] = [
 	'VR + AR',
 	'UI Engineering',
 	'UX Design',
+	'Web Apps',
 	'Interaction Design',
 	'Game Development',
 	'People-first work culture',

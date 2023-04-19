@@ -8,14 +8,14 @@
 		<meta name="description" content="The resume of a human named Micheal Parks.">
 		<meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_page.7bc09ccd.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.0155d9d5.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.2337822a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.259f5aec.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.e180aca8.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.716c0475.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.82393e18.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.833f5a0b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c1fd69d2.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.4f031eed.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.8fd1e439.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.0ac4b2eb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.ddcf1f77.js">
 
 		<link href="icons.css" rel="stylesheet">
 	</head>
@@ -111,12 +111,25 @@
 	<section class="svelte-154sh5v"><h2 class="svelte-1udkkcx">Selected Projects</h2>
 
 <div class="divider svelte-1udkkcx"></div>
-	<ul><li class="svelte-154sh5v"><div><a class="link svelte-154sh5v" target="_tab" href="https://galeri.io"><h3>Galeri</h3>
+	<ul><li class="svelte-154sh5v"><div><a class="link svelte-154sh5v" target="_tab" href="https://michealparks.github.io/odyssey/"><h3>Odyssey</h3>
 					</a></div>
 				
 				<!-- HTML_TAG_START -->
-			Galeri is an electron desktop app and a browser extension that changes your desktop background or browser's new tab page into 
-			a stream of artworks selected from open art APIs provided by museums and other institutions.
+			Odyssey was made for 2023 Svelte Hack. It is a minigame - built with Svelte and Three.js - about being lost in space.
+		<!-- HTML_TAG_END -->
+			</li><li class="svelte-154sh5v"><div><a class="link svelte-154sh5v" target="_tab" href="https://michealparks.github.io/game-off-2021/"><h3>TsunamiWorm</h3>
+					</a></div>
+				
+				<!-- HTML_TAG_START -->
+			TsunamiWorm was an entry for the 2021 Game Off competition. It was made using React Three Fiber and XState. In it you play as a computer virus
+			attempting to enslave and control the resources of a poor, helpless computer.
+		<!-- HTML_TAG_END -->
+			</li><li class="svelte-154sh5v"><div><a class="link svelte-154sh5v" target="_tab" href="https://galeri.io"><h3>Galeri</h3>
+					</a></div>
+				
+				<!-- HTML_TAG_START -->
+			Galeri is a desktop app that changes your desktop background or browser's new tab page into 
+			a stream of artworks selected from open art APIs provided by museums and other institutions. It was recently re-written in Rust using Tauri.
 		<!-- HTML_TAG_END -->
 			</li><li class="svelte-154sh5v"><div><a class="link svelte-154sh5v" target="_tab" href="https://github.com/michealparks/global-game-jam-2021"><h3>Renewal</h3>
 					</a></div>
@@ -142,6 +155,7 @@
 			</li><li class="svelte-1jski51">VR + AR
 			</li><li class="svelte-1jski51">UI Engineering
 			</li><li class="svelte-1jski51">UX Design
+			</li><li class="svelte-1jski51">Web Apps
 			</li><li class="svelte-1jski51">Interaction Design
 			</li><li class="svelte-1jski51">Game Development
 			</li><li class="svelte-1jski51">People-first work culture
@@ -164,6 +178,9 @@
 			</li><li class="svelte-1fb9qh0"><div class="progress svelte-1fb9qh0" style="width: 85%"></div>
 				Blender (donut making)
 				<small class="svelte-1fb9qh0">85,000%</small>
+			</li><li class="svelte-1fb9qh0"><div class="progress svelte-1fb9qh0" style="width: -0.1%"></div>
+				Rust
+				<small class="svelte-1fb9qh0">-100%</small>
 			</li></ul>
 </section>
 </main>
@@ -172,19 +189,20 @@
 			
 			<script>
 				{
-					__sveltekit_1a5wwal = {
-						env: {},
+					__sveltekit_weq1uf = {
 						base: new URL(".", location).pathname.slice(0, -1),
-						element: document.currentScript.parentElement
+						env: {}
 					};
+
+					const element = document.currentScript.parentElement;
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.0155d9d5.js"),
-						import("./_app/immutable/entry/app.e180aca8.js")
+						import("./_app/immutable/entry/start.82393e18.js"),
+						import("./_app/immutable/entry/app.4f031eed.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1a5wwal.element, {
+						kit.start(app, element, {
 							node_ids: [0, 2],
 							data,
 							form: null,

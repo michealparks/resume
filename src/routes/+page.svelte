@@ -1,7 +1,6 @@
 <script lang='ts'>
 
 import '../index.css'
-import data from '$lib/data'
 import Header from '$lib/Header.svelte'
 import Contact from '$lib/Contact.svelte'
 import Experience from '$lib/Experience.svelte'
@@ -12,28 +11,27 @@ import Skills from '$lib/Skills.svelte'
 
 </script>
 
-<Header {...data.header} />
+<Header />
 
-<main>	
-	<Contact {...data.contact} />
-	<Experience jobs={data.jobs} />
-	<Education education={data.education} />
-	<Projects projects={data.projects} />
-	<Interests interests={data.interests} />
-	<Skills skills={data.skills} />
+<main class='px-5 pb-5 sm:px-0 sm:grid text-gray-600 dark:text-gray-400'>	
+	<Contact />
+	<Experience />
+	<Education />
+	<Projects />
+	<Interests />
+	<Skills />
 </main>
 
 <style>
 	main {
-    padding: 0 20px;
 		grid-template: auto auto auto auto / 2fr 8fr;
 		column-gap: 30px;
 	}
 
-  @media (min-width: 700px) {
+  /* @media (min-width: 700px) {
     main {
       padding: 0;
       display: grid;
     }
-  }
+  } */
 </style>

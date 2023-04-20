@@ -1,18 +1,5 @@
-<h2>
+<h2 class='my-2.5'>
 	<slot />
 </h2>
 
-<div class='divider' />
-
-<style>
-	h2 {
-		margin: 10px 0;
-	}
-
-	.divider {
-		height: 5px;
-		width: 100%;
-		background: var(--title-bg);
-		margin-bottom: 10px;
-	}
-</style>
+<div class='h-1 w-full mb-2.5 bg-divider' />

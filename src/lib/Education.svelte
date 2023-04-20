@@ -1,9 +1,7 @@
 <script lang='ts'>
 
-import type { Education } from './types'
 import Title from './Title.svelte'
-
-export let education: Education[]
+import { education } from './data'
 
 </script>
 
@@ -11,8 +9,8 @@ export let education: Education[]
 	<Title>Education</Title>
 	<ul>
 		{#each education as { institution, duration, concentration }, _ (institution)}
-			<li>
-				<h3>{institution}</h3>
+			<li class='mb-5'>
+				<h3 class='text-sm font-semibold text-slate-600 dark:text-slate-300'>{institution}</h3>
 				<p>{duration}</p>
 				<p>{concentration}</p>
 			</li>
@@ -24,9 +22,5 @@ export let education: Education[]
 	section {
 		grid-row: 2 / auto;
 		grid-column: 1 / span 1;
-	}
-
-	h3 {
-		font-size: 14px;
 	}
 </style>

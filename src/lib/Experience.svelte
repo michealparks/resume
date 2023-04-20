@@ -1,18 +1,16 @@
 <script lang='ts'>
 
-import type { Job } from './types'
 import Title from './Title.svelte'
-
-export let jobs: Job[]
+import { jobs } from './data'
 
 </script>
 
 <section>
 	<Title>Work Experience</Title>
 	<ul>
-		{#each jobs as { title, company, duration, description }, _ (title)}
-			<li>
-				<h3>{title}, {company}</h3>
+		{#each jobs as { title, company, duration, description } (title)}
+			<li class='mb-5'>
+				<h3 class='font-semibold text-slate-600 dark:text-slate-300'>{title}, {company}</h3>
 				<p>{duration}</p>
 				{@html description}
 			</li>
@@ -24,9 +22,5 @@ export let jobs: Job[]
 	section {
 		grid-row: 1 / span 3;
 		grid-column: 2 / span 1;
-	}
-
-	li {
-		margin: 20px 0;
 	}
 </style>

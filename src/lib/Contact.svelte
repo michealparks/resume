@@ -1,12 +1,7 @@
 <script lang='ts'>
 
 import Title from './Title.svelte'
-export let email: string
-export let phone: string
-export let location: string
-export let website: string
-export let github: string
-export let linkedin: string
+import { contact } from './data'
 
 </script>
 
@@ -14,32 +9,32 @@ export let linkedin: string
 	<Title>Contact</Title>
 	<div>
 		<span class='icon-envelope' />
-		<a href={`mailto:${email}`}>{email}</a>
+		<a href={`mailto:${contact.email}`}>{contact.email}</a>
 	</div>
 
 	<div>
 		<span class='icon-phone' />
-		<a href={`tel:${phone}`}>{phone}</a>
+		<a href={`tel:${contact.phone}`}>{contact.phone}</a>
 	</div>
 
 	<div>
 		<span class='icon-location' />
-		<p>{location}</p>
+		<p class='m-0'>{contact.location}</p>
 	</div>
 
 	<div>
 		<span class='icon-website' />
-		<a target='_tab' href={`https://${website}`}>{website}</a>
+		<a target='_tab' href={`https://${contact.website}`}>{contact.website}</a>
 	</div>
 	
 	<div>
 		<span class='icon-github' />
-		<a target='_tab' href={`https://${github}`}>{github}</a>
+		<a target='_tab' href={`https://${contact.github}`}>{contact.github}</a>
 	</div>
 
 	<div>
 		<span class='icon-linkedin' />
-		<a target='_tab' href={`https://${linkedin}`}>{linkedin}</a>
+		<a target='_tab' href={`https://${contact.linkedin}`}>{contact.linkedin}</a>
 	</div>
 </section>
 
@@ -77,9 +72,5 @@ export let linkedin: string
 
 	a:hover {
 		text-decoration: underline;
-	}
-
-	p {
-		margin: 0;
 	}
 </style>

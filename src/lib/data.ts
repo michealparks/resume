@@ -1,6 +1,4 @@
-import type { Education, Job, Project, Skill } from './types'
-
-const header = {
+export const header = {
 	name: 'Micheal Parks',
 	title: 'Software Engineer',
 	portrait: 'me.jpg',
@@ -16,7 +14,7 @@ const header = {
 	`
 }
 
-const contact = {
+export const contact = {
 	email: 'michealparks1989@gmail.com',
 	phone: '1-718-362-7680',
 	location: 'Brooklyn, NY',
@@ -25,7 +23,7 @@ const contact = {
 	linkedin: 'linkedin.com/in/michealparks'
 }
 
-const jobs: Job[] = [
+export const jobs = [
 	{
 		title: 'Senior Sofware Engineer II - Frontend',
 		company: 'VIAM',
@@ -73,7 +71,7 @@ const jobs: Job[] = [
 	}
 ]
 
-const education: Education[] = [
+export const education = [
 	{
 		institution: 'Brooklyn College',
 		duration: '2017 - 2020',
@@ -85,7 +83,7 @@ const education: Education[] = [
 	}
 ]
 
-const projects: Project[] = [
+export const projects = [
 	{
 		title: 'Odyssey',
 		link: 'https://michealparks.github.io/odyssey/',
@@ -124,7 +122,7 @@ const projects: Project[] = [
 	},
 ]
 
-const skills: Skill[] = [
+export const skills = [
 	{ name: 'Untyped Typescript', mastery: 100000 },
 	{ name: 'CSS, HTML, The Web™', mastery: 95000 },
 	{ name: 'ThreeJS, Game Engines', mastery: 90000 },
@@ -132,7 +130,7 @@ const skills: Skill[] = [
 	{ name: 'Rust', mastery: -100 },
 ]
 
-const interests: string[] = [
+export const interests = [
 	'3D Graphics',
 	'VR + AR',
 	'UI Engineering',
@@ -144,13 +142,3 @@ const interests: string[] = [
 	'Science',
 	'Art',
 ]
-
-export default {
-	header,
-	contact,
-	jobs,
-	education,
-	projects,
-	skills,
-	interests,
-}

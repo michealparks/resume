@@ -22,7 +22,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm ci --production --audit=false
+          npm ci --production --audit=false --legacy-peer-deps
           npm run build
 
       - name: Deploy 🚀

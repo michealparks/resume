@@ -1,8 +1,6 @@
 <script lang='ts'>
-
-import Title from './Title.svelte'
-import { education } from './data'
-
+	import Title from './Title.svelte'
+	import { education } from './data'
 </script>
 
 <section>

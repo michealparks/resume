@@ -1,8 +1,6 @@
 <script lang='ts'>
-
-import Title from './Title.svelte'
-import { jobs } from './data'
-
+	import Title from './Title.svelte'
+	import { jobs } from './data'
 </script>
 
 <section>
@@ -10,7 +8,9 @@ import { jobs } from './data'
 	<ul>
 		{#each jobs as { title, company, duration, description } (title)}
 			<li class='mb-5'>
-				<h3 class='font-semibold text-slate-600 dark:text-slate-300'>{title}, {company}</h3>
+				<h3 class='font-semibold text-slate-600 dark:text-slate-300'>
+					{title}, {company}
+				</h3>
 				<p>{duration}</p>
 				{@html description}
 			</li>

@@ -1,8 +1,6 @@
 <script lang='ts'>
-
-import Title from './Title.svelte'
-import { projects } from './data'
-
+	import Title from './Title.svelte'
+	import { projects } from './data'
 </script>
 
 <section>

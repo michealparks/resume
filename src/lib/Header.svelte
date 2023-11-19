@@ -1,13 +1,21 @@
 <script lang='ts'>
-
-import { header } from './data'
-
+	import { header } from './data'
 </script>
 
 <header class='sm:grid sm:rounded-lg p-5 mb-5 text-white bg-dark-green dark:bg-slate-700'>
-	<img width='200' height='200' class='block rounded my-4 max-w-xs m-auto' src={header.portrait} alt="That's Me!" />
-	<h1 class='text-2xl my-1'>{header.name}, {header.title}</h1>
-	<p>{header.description}</p>
+	<img
+		width='200'
+		height='200'
+		class='block rounded my-4 max-w-xs m-auto'
+		src={header.portrait}
+		alt="That's Me!"
+	/>
+	<h1 class='text-2xl my-1'>
+		{header.name}, {header.title}
+	</h1>
+	<p>
+		{header.description}
+	</p>
 </header>
 
 <style>

@@ -93,7 +93,7 @@ export const projects = [
     title: "Threlte",
     link: "https://threlte.xyz",
     description: `
-      I became a core Threlte maintainer after creating the <a class="link" target="_tab" href="">@threlte/xr</a> package.
+      I became a core Threlte maintainer after creating the <a class="link" target="_tab" href="https://threlte.xyz/docs/reference/xr/getting-started">@threlte/xr</a> package.
       Since then I've made a number of core contributions, strengthening the project's position as a powerful Three.js framework.
     `,
   },

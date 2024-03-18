@@ -27,7 +27,7 @@ import{r as D,l as be,G as ke,H as Ce,I as je,J as me,K as ue,L as Q,p as Me,M a
 		`},{title:"New Media Web Developer",company:"University of Central Florida",duration:"2012 - 2013",description:`
 			I wrote educational javascript games and embeddable widgets - like <a class="link" target="_tab" href="https://materia.ucf.edu/widgets/12-hangman">Hangman</a> and <a class="link" target="_tab" href="https://materia.ucf.edu/widgets/9-flash-cards">Flashcards</a> - alongside Lego models and some fantastic people.
 		`}],Qe=[{institution:"Brooklyn College",duration:"2017 - 2020",concentration:"Mathematics courses"},{institution:"University of Central Florida",duration:"2008 - 2013",concentration:"Biology, Computer Science and Psychology Minor"}],Ze=[{title:"Threlte",link:"https://threlte.xyz",description:`
-      I became a core Threlte maintainer after creating the <a class="link" target="_tab" href="">@threlte/xr</a> package.
+      I became a core Threlte maintainer after creating the <a class="link" target="_tab" href="https://threlte.xyz/docs/reference/xr/getting-started">@threlte/xr</a> package.
       Since then I've made a number of core contributions, strengthening the project's position as a powerful Three.js framework.
     `},{title:"Odyssey",link:"https://michealparks.github.io/odyssey/",description:`
 			Odyssey was made for 2023 Svelte Hack. It is a minigame - built with Svelte and Three.js - about being lost in space.
